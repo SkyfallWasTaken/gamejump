@@ -3,7 +3,7 @@ let count = 0
 tag app
 	<self>
 		<header .content>
-			<h1> "Gamejump"
+			<h1> "Yo! This is Gamejump."
 			<button @click=(document.getElementById("modal").classList.add("is-active")) .button .is-primary .content> "{count != 0 ? `Clicked {count} {count == 1 ? "time" : "times"}` : "Click me"}!"
 			<p> "Edit {<code> "app/client.imba"} and save to reload"
 
